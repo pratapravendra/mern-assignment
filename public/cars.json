@@ -1,0 +1,93 @@
+[
+    {
+      "id": 1,
+      "name": "Scorpio-N",
+      "brand": "Mahindra",
+      "fuel": "Diesel",
+      "seating": 7,
+      "price": 18000,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQlRpybPRyG9mtKgftBBWXAwuiLF54vMgEyA&s"
+    },
+    {
+      "id": 2,
+      "name": "Thar",
+      "brand": "Mahindra",
+      "fuel": "Petrol",
+      "seating": 4,
+      "price": 17000,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8Fbq7Fllxza_FKXKUEqSc4zf5Eiy7QrZRxQ&s"
+    },
+    {
+      "id": 3,
+      "name": "XUV700",
+      "brand": "Mahindra",
+      "fuel": "Diesel",
+      "seating": 7,
+      "price": 22000,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmJfUaVkoSzySHd0r4y281EXiIGR_TuyaKAQ&s"
+    },
+    {
+      "id": 4,
+      "name": "Altroz",
+      "brand": "Tata",
+      "fuel": "Petrol",
+      "seating": 5,
+      "price": 10000,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgFmf_AVCjxaZgBFEZlz4MLZiscxUoxfJ92g&s"
+    },
+    {
+      "id": 5,
+      "name": "Harrier",
+      "brand": "Tata",
+      "fuel": "Diesel",
+      "seating": 5,
+      "price": 25000,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4uGrUwhfNCTRw_UhYgcDYcctxWA3vJbeBEQ&s"
+    },
+    {
+      "id": 6,
+      "name": "Safari",
+      "brand": "Tata",
+      "fuel": "Diesel",
+      "seating": 7,
+      "price": 27000,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwc4yxKSVxq5d5y64QDJMX1GrT8WMJtLO3eg&s"
+    },
+    {
+      "id": 7,
+      "name": "Tiago",
+      "brand": "Tata",
+      "fuel": "Petrol",
+      "seating": 5,
+      "price": 8000,
+      "image": "https://images.91wheels.com/assets/c_images/gallery/tata/tiago/tata-tiago-8-1744176010.jpg?w=480&q=60?w=1080&q=60"
+    },
+    {
+      "id": 8,
+      "name": "Bolero",
+      "brand": "Mahindra",
+      "fuel": "Diesel",
+      "seating": 7,
+      "price": 12000,
+      "image": "https://ic4.maxabout.us/autos/cars_india//N/2022/4/new-mahindra-bolero-neo-price-in-india.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Punch",
+      "brand": "Tata",
+      "fuel": "Petrol",
+      "seating": 5,
+      "price": 9000,
+      "image": "https://5.imimg.com/data5/SELLER/Default/2023/5/307165025/QT/IP/OY/189266364/tata-punch-mist-grey-car.jpg"
+    },
+    {
+      "id": 10,
+      "name": "KUV100 NXT",
+      "brand": "Mahindra",
+      "fuel": "Petrol",
+      "seating": 6,
+      "price": 9500,
+      "image": "https://imgd.aeplcdn.com/664x374/n/cw/ec/21497/kuv100-nxt-exterior-right-front-three-quarter-64046.jpeg?q=80"
+    }
+  ]
+  
