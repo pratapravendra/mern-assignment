@@ -88,6 +88,24 @@
       "seating": 6,
       "price": 9500,
       "image": "https://imgd.aeplcdn.com/664x374/n/cw/ec/21497/kuv100-nxt-exterior-right-front-three-quarter-64046.jpeg?q=80"
+    },
+    {
+      "id": 11,
+      "name": "Creta",
+      "brand": "Hyundai",
+      "fuel": "Petrol",
+      "seating": 6,
+      "price": 9500,
+      "image": "https://imgd.aeplcdn.com/664x374/n/cw/ec/106815/creta-exterior-right-front-three-quarter-5.jpeg?isig=0&q=80"
+    },
+    {
+      "id": 12,
+      "name": "Brezza",
+      "brand": "Maruti Suzuki",
+      "fuel": "Petrol",
+      "seating": 6,
+      "price": 9500,
+      "image": "https://imgd.aeplcdn.com/664x374/n/cw/ec/107543/brezza-exterior-right-front-three-quarter-9.jpeg?isig=0&q=80"
     }
   ]
   

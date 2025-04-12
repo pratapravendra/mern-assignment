@@ -1,6 +1,6 @@
 import DarkModeToggle from './DarkModeToggle';
 
-const TopBar = ({ filters, onFilterChange, wishlistCount, sortBy, setSortBy }) => {
+const TopBar = ({ filters, onFilterChange, wishlistCount, sortBy, setSortBy, onWishlistToggle }) => {
   const handleInputChange = (e) => {
     onFilterChange({ ...filters, [e.target.name]: e.target.value });
   };
@@ -8,12 +8,12 @@ const TopBar = ({ filters, onFilterChange, wishlistCount, sortBy, setSortBy }) =
   return (
     <div className="flex flex-wrap items-center justify-between p-4 bg-gray-100 dark:bg-gray-900">
       <div className="flex flex-wrap gap-2">
-        <input name="brand" placeholder="Brand" className="p-2 rounded" onChange={handleInputChange} />
-        <input name="fuel" placeholder="Fuel Type" className="p-2 rounded" onChange={handleInputChange} />
-        <input name="seating" placeholder="Seating" className="p-2 rounded" onChange={handleInputChange} />
-        <input name="price" placeholder="Max Price" type="number" className="p-2 rounded" onChange={handleInputChange} />
+        <input name="brand" placeholder="Brand" className="p-2 rounded placeholder:text-white" onChange={handleInputChange} />
+        <input name="fuel" placeholder="Fuel Type" className="p-2 rounded placeholder:text-white" onChange={handleInputChange} />
+        <input name="seating" placeholder="Seating" className="p-2 rounded placeholder:text-white" onChange={handleInputChange} />
+        <input name="price" placeholder="Max Price" type="number" className="p-2 rounded placeholder:text-white" onChange={handleInputChange} />
 
-        <select value={sortBy} onChange={(e) => setSortBy(e.target.value)} className="p-2 rounded">
+        <select value={sortBy} onChange={(e) => setSortBy(e.target.value)} className="p-2 rounded text-white">
           <option value="">Sort</option>
           <option value="low">Price: Low to High</option>
           <option value="high">Price: High to Low</option>
@@ -21,7 +21,10 @@ const TopBar = ({ filters, onFilterChange, wishlistCount, sortBy, setSortBy }) =
       </div>
 
       <div className="flex gap-4 items-center">
-        <button className="relative px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600">
+        <button 
+          className="relative px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
+          onClick={onWishlistToggle}
+        >
           Wishlist
           {wishlistCount > 0 && (
             <span className="absolute top-0 right-0 bg-red-500 text-xs rounded-full px-2">{wishlistCount}</span>

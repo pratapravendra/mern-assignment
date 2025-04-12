@@ -1,17 +1,26 @@
-const CarCard = ({ car, onWishlistToggle, isWishlisted }) => (
-    <div className="bg-white dark:bg-gray-800 rounded shadow p-4">
-      <img src={car.image} alt={car.name} className="w-full h-40 object-cover rounded" />
-      <h2 className="text-lg font-semibold dark:text-white mt-2">{car.name}</h2>
-      <p className="text-sm text-gray-500 dark:text-gray-400">{car.fuel} • {car.seating} seats</p>
-      <p className="text-sm text-gray-600 dark:text-gray-300">Price: ₹{car.price}</p>
+const CarCard = ({ car, onClick, onWishlistToggle, isWished }) => (
+  <div
+    onClick={() => onClick(car)}l
+    className="border p-4 rounded shadow hover:shadow-lg cursor-pointer bg-white dark:bg-gray-800 transition"
+  >
+    <img src={car.image} alt={car.name} className="h-40 w-full object-cover rounded" />
+    <div className="mt-2">
+      <h3 className="font-semibold text-lg text-gray-900 dark:text-white">{car.name}</h3>
+      <p className="text-sm text-gray-500 dark:text-gray-300">₹{car.price}</p>
       <button
-        onClick={() => onWishlistToggle(car.id)}
-        className="mt-2 px-3 py-1 bg-indigo-500 text-white rounded hover:bg-indigo-600"
+        onClick={(e) => {
+          e.stopPropagation(); 
+          onWishlistToggle(car.id);
+        }}
+        className={`mt-2 text-sm px-2 py-1 rounded ${
+          isWished ? 'bg-red-500 text-white' : 'bg-gray-200 text-black'
+        }`}
       >
-        {isWishlisted ? 'Remove from Wishlist' : 'Add to Wishlist'}
+        {isWished ? 'Remove from Wishlist' : 'Add to Wishlist'}
       </button>
     </div>
-  );
-  
-  export default CarCard;
+  </div>
+);
+export default CarCard
+
   
