@@ -34,3 +34,40 @@ A beautiful, responsive car listing web application built with **Vite**, **React
 
 ## 📁 Project Structure
 
+
+
+---
+
+## 🔧 Installation & Setup
+
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/pratapravendra/mern-assignment
+   cd car-finder
+
+Install Dependencies
+
+npm install
+
+Start the Development Server
+
+npm run dev
+
+
+📦 Mock API Data
+All car data is served from the public/cars.json file. You can edit this to add more cars or adjust existing data.
+
+Each car should have:
+
+json
+{
+  "id": 1,
+  "name": "Hyundai i20",
+  "brand": "Hyundai",
+  "fuel": "Petrol",
+  "seating": 5,
+  "price": 750000,
+  "image": "/images/i20.jpg"
+}
+
+
